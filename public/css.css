@@ -1,0 +1,74 @@
+.clearfix{
+    clear:both
+  }
+  body {
+      font-family: 'Kanit', sans-serif;
+      background-image: url("images/A.jpg");
+  }
+  .cshead{
+    background-image: url("images/77.jpg");
+    border: 8px solid #970404;
+      height: 150px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      background-color: lightgrey;
+      color: rgb(143, 13, 13);  
+      font-family: 'Kanit', sans-serif;
+                                    
+    
+  }
+  
+  .pic{
+    border: 1px solid grey;
+        height: 250px;
+        width: 500px;
+      
+        vertical-align: middle;
+        height: 100px;
+        margin: auto auto;
+        display: block;
+        display: block;
+      }
+      }
+  
+  .subtitle{
+    background-color: rgb(146, 122, 108);
+    border: 8px solid #a8766e;
+    background-color: lightgrey;
+    color: rgb(0, 0, 0);
+    height: 100px;
+  }
+  
+  .block-1 {
+    list-style-type: none;
+    margin: 100;
+    
+    width: 200px;
+    background-color: #e29191;
+    font-size: 1.5em;
+    border: 4px solid #f35959;
+    
+    
+    
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(241, 236, 247);
+    padding: 8px 16px;
+    text-emphasis: dot 1px;;
+  }
+  
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
